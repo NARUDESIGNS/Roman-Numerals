@@ -1,0 +1,91 @@
+body {
+    padding: none;
+    background-color: lightgreen;
+}
+
+.container {
+    background-color: #333331;
+    height: 290px;
+    width: 350px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -7px black;
+    padding: 10px 50px 50px 50px;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 15px;
+    color: lightgreen;
+}
+
+.container hr {
+    height: 1.2px;
+    border: none;
+    background-color: lightgreen;
+}
+
+.container .inputs {
+    /*border: 1px solid wheat;*/
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs input {
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center; 
+    font-family: monospace;
+    font-size: 15px;  
+    color: white;
+    background-color: #272525;
+}
+
+.inputs input:focus {
+    background-color: #272525;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+/* i[title]:hover:after {
+    content: title(submit);
+    position: absolute;
+    border-radius: 10px;
+    background-color: #272525;
+} */
+
+ .fa-check-circle {
+    font-size: 40px;
+    color: lightgreen;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fa-check-circle:active {
+    color: rgb(101, 189, 101);
+}
+
+#resultVal {
+    background-color: white;
+    height: 120px;
+    width: 270px;
+    margin: 27px auto;
+    border-radius: 20px;
+    background-color: #272525;
+}
+
+#resultVal > p {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px; 
+    padding-top: 45px;
+    color: white;
+}
